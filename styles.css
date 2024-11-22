@@ -1,0 +1,94 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 255, 0.2);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo img {
+    max-width: 100px;
+    height: auto;
+}
+
+h1 {
+    color: #003366;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    color: #003366;
+    margin-bottom: 5px;
+}
+
+input[type="number"] {
+    width: calc(100% - 10px);
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #003366;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    background-color: #003366;
+    color: #ffffff;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #002244;
+}
+
+#result {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.result-success {
+    color: green;
+}
+
+.result-fail {
+    color: red;
+}
+
+.result-scholarship {
+    color: blue;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 16px;
+    color: #003366;
+}

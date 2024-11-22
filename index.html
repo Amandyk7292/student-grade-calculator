@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Grade Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="logo.png" alt="Логотип" />
+        </div>
+        <h1>Калькулятор оценки студентов</h1>
+        <div class="form-group">
+            <label for="rk1">Рубежный Контроль 1 (0 - 100):</label>
+            <input type="number" id="rk1" min="0" max="100" required>
+        </div>
+        <div class="form-group">
+            <label for="rk2">Рубежный Контроль 2 (0 - 100):</label>
+            <input type="number" id="rk2" min="0" max="100" required>
+        </div>
+        <div class="form-group">
+            <label for="session">Сессия (0 - 100):</label>
+            <input type="number" id="session" min="0" max="100" required>
+        </div>
+        <button onclick="calculateGrade()">Рассчитать общий балл</button>
+        <div id="result"></div>
+    </div>
+
+    <footer>
+        Разработчик: Amandyk Otessinov
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
